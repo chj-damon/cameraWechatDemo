@@ -26,6 +26,12 @@
         </intent-filter>
       </activity>
       <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+      <activity
+          android:name=".wxapi.WXEntryActivity"
+          android:label="@string/app_name"
+          android:exported="true"
+          android:taskAffinity="com.camerawechatdemo"
+          android:launchMode="singleTask"/>
     </application>
 
 </manifest>
